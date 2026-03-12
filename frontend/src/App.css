@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at top, #071a16, #020807);
+  color: white;
+}
+
+/* Main Page */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Title */
+
+.title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #e6fef6;
+}
+
+/* Main Card */
+
+.main-card {
+  width: 650px;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(0,255,180,0.25);
+  background: rgba(0,0,0,0.35);
+  box-shadow: 0 0 40px rgba(0,255,180,0.2);
+  text-align: center;
+}
+
+/* Mic Section */
+
+.mic-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.mic-button {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: radial-gradient(circle,#00ffc8,#00b58a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  box-shadow: 0 0 25px rgba(0,255,180,0.8);
+}
+
+/* Buttons */
+
+.controls {
+  margin-bottom: 15px;
+}
+
+.file-input {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.start-btn {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 10px;
+  background: linear-gradient(90deg,#00ffc8,#00b58a);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.download-btn {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: 1px solid #00ffc8;
+  background: transparent;
+  color: #00ffc8;
+  cursor: pointer;
+}
+
+/* Status */
+
+.status-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #9cfddc;
+}
+
+/* Processed Output */
+
+.processed-container {
+  margin-top: 25px;
+}
+
+.processed-title {
+  color: #00ffc8;
+  margin-bottom: 10px;
+}
+
+.processed-box {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,255,200,0.4);
+  background: rgba(0,0,0,0.45);
+  padding: 12px;
+  color: #00ffc8;
+  font-size: 14px;
+  resize: none;
+  outline: none;
+  box-shadow: 0 0 12px rgba(0,255,200,0.2);
+}
+.stop-btn {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 10px;
+  background: #ff5f5f;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.stop-btn:hover {
+  background: #ff3b3b;
+}
